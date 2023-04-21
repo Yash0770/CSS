@@ -1,0 +1,139 @@
+
+/* *{
+    color: red;                give color to full document
+} */
+h1{
+    color: blue;
+}
+.font-styles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+.error{
+    color: red;        /*class base css*/
+}
+.success{
+    color: green;      /*class base css*/
+}
+#test{
+    color: maroon;
+}
+/* .color{
+    color: #ffffff;
+    color: rgba(55, 27, 165, 0.817)(143, 101, 101);             //color 
+} */
+
+.orange{
+    background-color: orange;
+    text-align: center;
+    line-height: 5;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    margin-bottom: 30px;
+}
+.yellow{
+    background-color: yellow;
+}
+ul{
+    list-style: disc;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+.box-model{
+    border: 1px solid black;
+    width: 400px;
+    height: 150px;
+    padding: 40px;
+    margin: 20px;
+}
+
+h2{
+    color: blue;
+}
+h2{
+   color: red;                     /*  cascading rule */
+}
+
+h3{
+    color: rgb(128, 24, 246)                     !important;
+}
+.sub-heading{
+    color: blue;                /*  dons'nt work because of !important */
+}
+#title{
+    color: rgb(147, 20, 161);           /*  dons'nt work because of !important */
+}
+.inheritance{
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+th, td{
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+td{
+    text-align: center;
+}
+.content-1{
+    border: 1px solid red;
+    display: inline;
+}
+.content-2{
+    border: 1px solid blue;
+    display: none;
+}
+.content-3{
+    border: 1px solid blue;
+    display: block;                     /*display - block, inline, flex, grid, flexbox*/
+}
+.position-1{
+    border: 1px solid red;
+    /* position: relative;                 position - absolute, relative, fixed, static, sticky, top, right, bottom, left */
+    position: sticky;
+    top: 40px;
+    left: 40px;
+}
+.position-2{
+    border: 1px solid blue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.container{
+    position: relative;
+    border: 1px solid black;
+    width: 200px;
+    height: 1200px;
+}
+
+/* 
+CSS Units
+
+absolute -
+px
+
+relative -
+rem 
+em
+vh
+vmax
+
+*/
+
+.em-unit{
+    font-size: 40px;
+    height: 5em;                /*unit in height*/
+}
+.rem-unit{
+    border: 1px solid black;
+    font-size: 3rem;
+    height: 40vh;
+}
